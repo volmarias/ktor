@@ -18,7 +18,6 @@ class JettyJakartaContentTest : ContentTestSuite<JettyApplicationEngine, JettyAp
 
 class JettyHttpServerCommonTest :
     HttpServerCommonTestSuite<JettyApplicationEngine, JettyApplicationEngineBase.Configuration>(Jetty) {
-    @Test
     override fun testFlushingHeaders() {
         // no op
     }
